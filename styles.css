@@ -1,0 +1,34 @@
+#cuInfoBoxTitle{
+        float: left;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    #cuInfoBox{
+        position: absolute;
+        display: none;
+        border-radius: 5px;
+        box-shadow: 3px 3px 4px rgb(0 0 0 / 50%);
+        z-index: 1000000;
+        background-color: white;
+        padding: .6em;
+        opacity: 0.9;
+        font: 10px/1.5 Verdana, Arial, Helvetica, sans-serif;
+        color: black;
+        max-width: 50%;
+        min-width: 100px;
+    }
+    #cDepartment{
+        font-size: 12px;
+    }
+    #covidUYData{
+        display: none;
+    }
+    svg#uruguay{
+        margin-bottom: 5%;
+        max-width: 500px;
+        cursor: pointer;
+        padding-left: 5%;
+    }
+    #uruguay-depmontevideo:hover, #uruguay-depcanelones:hover, #uruguay-depmaldonado:hover, #uruguay-deprivera:hover, #uruguay-depcolonia:hover, #uruguay-depsalto:hover, #uruguay-depsanjose:hover, #uruguay-deptacuarembo:hover, #uruguay-depcerrolargo:hover, #uruguay-depdurazno:hover, #uruguay-deprocha:hover, #uruguay-departigas:hover, #uruguay-deppaysandu:hover, #uruguay-depsoriano:hover, #uruguay-depflorida:hover, #uruguay-deplavalleja:hover, #uruguay-deptreintaytres:hover, #uruguay-deprionegro:hover, #uruguay-depflores:hover{
+        fill: #3b729b;
+    }
